@@ -33,7 +33,7 @@ import org.openmrs.Concept;
 import org.openmrs.api.context.Context;
 import org.openmrs.module.hospitalcore.BillingService;
 import org.openmrs.module.hospitalcore.model.BillableService;
-import org.openmrs.module.radiology.util.RadiologyConstants;
+import org.openmrs.module.hospitalcore.util.RadiologyConstants;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;

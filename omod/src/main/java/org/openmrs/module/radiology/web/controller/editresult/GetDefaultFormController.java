@@ -22,10 +22,10 @@ package org.openmrs.module.radiology.web.controller.editresult;
 
 import org.openmrs.Encounter;
 import org.openmrs.api.context.Context;
-import org.openmrs.module.radiology.RadiologyService;
-import org.openmrs.module.radiology.model.RadiologyForm;
-import org.openmrs.module.radiology.model.RadiologyTest;
-import org.openmrs.module.radiology.web.util.RadiologyUtil;
+import org.openmrs.module.hospitalcore.RadiologyService;
+import org.openmrs.module.hospitalcore.form.RadiologyForm;
+import org.openmrs.module.hospitalcore.model.RadiologyTest;
+import org.openmrs.module.hospitalcore.util.RadiologyUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

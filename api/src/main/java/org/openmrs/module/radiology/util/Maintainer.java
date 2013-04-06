@@ -22,6 +22,7 @@ package org.openmrs.module.radiology.util;
 
 import org.openmrs.api.context.Context;
 import org.openmrs.module.hospitalcore.util.GlobalPropertyUtil;
+import org.openmrs.module.hospitalcore.util.RadiologyConstants;
 
 public class Maintainer {
 

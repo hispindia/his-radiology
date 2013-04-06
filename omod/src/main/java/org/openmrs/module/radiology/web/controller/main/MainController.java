@@ -29,10 +29,10 @@ import javax.servlet.http.HttpSession;
 
 import org.openmrs.Concept;
 import org.openmrs.api.context.Context;
+import org.openmrs.module.hospitalcore.RadiologyService;
 import org.openmrs.module.hospitalcore.concept.TestTree;
 import org.openmrs.module.hospitalcore.model.RadiologyDepartment;
-import org.openmrs.module.radiology.RadiologyService;
-import org.openmrs.module.radiology.util.RadiologyConstants;
+import org.openmrs.module.hospitalcore.util.RadiologyConstants;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

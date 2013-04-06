@@ -23,8 +23,8 @@ package org.openmrs.module.radiology.web.controller.form;
 import java.util.List;
 
 import org.openmrs.api.context.Context;
-import org.openmrs.module.radiology.RadiologyService;
-import org.openmrs.module.radiology.model.RadiologyForm;
+import org.openmrs.module.hospitalcore.RadiologyService;
+import org.openmrs.module.hospitalcore.form.RadiologyForm;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;

@@ -32,13 +32,13 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.openmrs.Concept;
 import org.openmrs.api.context.Context;
+import org.openmrs.module.hospitalcore.RadiologyService;
+import org.openmrs.module.hospitalcore.model.RadiologyTest;
 import org.openmrs.module.hospitalcore.util.GlobalPropertyUtil;
-import org.openmrs.module.radiology.RadiologyService;
-import org.openmrs.module.radiology.model.RadiologyTest;
-import org.openmrs.module.radiology.util.RadiologyConstants;
+import org.openmrs.module.hospitalcore.util.RadiologyConstants;
+import org.openmrs.module.hospitalcore.util.RadiologyUtil;
+import org.openmrs.module.hospitalcore.util.TestModel;
 import org.openmrs.module.radiology.web.util.PagingUtil;
-import org.openmrs.module.radiology.web.util.RadiologyUtil;
-import org.openmrs.module.radiology.web.util.TestModel;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

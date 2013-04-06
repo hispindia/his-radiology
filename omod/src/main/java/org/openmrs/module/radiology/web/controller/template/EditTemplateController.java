@@ -23,11 +23,11 @@ package org.openmrs.module.radiology.web.controller.template;
 import java.util.Set;
 
 import org.openmrs.api.context.Context;
+import org.openmrs.module.hospitalcore.RadiologyService;
 import org.openmrs.module.hospitalcore.model.RadiologyDepartment;
-import org.openmrs.module.radiology.RadiologyService;
-import org.openmrs.module.radiology.model.RadiologyTemplate;
+import org.openmrs.module.hospitalcore.template.RadiologyTemplate;
+import org.openmrs.module.hospitalcore.util.RadiologyUtil;
 import org.openmrs.module.radiology.web.controller.propertyeditor.RadiologyTemplatePropertyEditor;
-import org.openmrs.module.radiology.web.util.RadiologyUtil;
 import org.springframework.beans.propertyeditors.CustomCollectionEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

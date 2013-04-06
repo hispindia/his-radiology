@@ -28,10 +28,11 @@ import java.util.Set;
 import org.openmrs.Concept;
 import org.openmrs.ConceptWord;
 import org.openmrs.api.context.Context;
+import org.openmrs.module.hospitalcore.RadiologyService;
+import org.openmrs.module.hospitalcore.form.RadiologyForm;
+import org.openmrs.module.hospitalcore.template.RadiologyTemplate;
 import org.openmrs.module.hospitalcore.util.GlobalPropertyUtil;
-import org.openmrs.module.radiology.RadiologyService;
-import org.openmrs.module.radiology.model.RadiologyForm;
-import org.openmrs.module.radiology.model.RadiologyTemplate;
+import org.openmrs.module.hospitalcore.util.RadiologyConstants;
 
 public class MaintainUtil {
 

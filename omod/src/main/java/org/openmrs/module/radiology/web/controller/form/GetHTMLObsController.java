@@ -29,7 +29,7 @@ import java.util.Set;
 import org.openmrs.Concept;
 import org.openmrs.ConceptAnswer;
 import org.openmrs.ConceptSet;
-import org.openmrs.module.radiology.web.util.RadiologyUtil;
+import org.openmrs.module.hospitalcore.util.RadiologyUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

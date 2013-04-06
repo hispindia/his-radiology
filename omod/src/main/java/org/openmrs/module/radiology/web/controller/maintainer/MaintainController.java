@@ -32,8 +32,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.openmrs.Concept;
 import org.openmrs.api.context.Context;
-import org.openmrs.module.radiology.RadiologyService;
-import org.openmrs.module.radiology.model.RadiologyForm;
+import org.openmrs.module.hospitalcore.RadiologyService;
+import org.openmrs.module.hospitalcore.form.RadiologyForm;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
