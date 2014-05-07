@@ -24,7 +24,7 @@
 <table id="myTable" class="tablesorter">
 	<thead>
 		<tr> 
-			<th>Sr. No.</th>
+			<th><center>Sr. No.</center></th>
 			<th>Results</th>
 			<th>Reorder</th>	
 			<th>Date</th>
@@ -46,7 +46,7 @@
 				</c:otherwise>
 			</c:choose>
 			<tr class="${klass}">
-				<td>${index.count}</td>
+				<td><center>${index.count}</center></td>
 				<td>
 					<c:choose>
 						<c:when test='${test.xray}'>							

@@ -80,20 +80,24 @@
 </script> 
 
 <div class="boxHeader"> 
-	<strong>See patient List by choosing lab</strong>
+	<strong>Get Patient List</strong>
 </div>
 <div class="box">
 	<table>
-		<tr>
-			<td>
-				Date:
-				<input id="date" value="${currentDate}" onFocus="showCalendar(this);" style="text-align:right;"/>
-			</td>
-			<td>
+		<tr>	
+
 				<div id="searchbox"></div>
+
+		<tr>	
+		<tr>
+			<td style="width:120px">
+				&nbsp;&nbsp;Date:
+			</td>
+			<td>	
+				<input id="date" value="${currentDate}" onFocus="showCalendar(this);" style="text-align:left; width:100px"/>
 			</td>
 			<td>
-				<input type="button" value="Print" onClick="printPatientReport();"/>
+				&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Print" onClick="printPatientReport();"/>
 			</td>
 		</tr>
 	</table>

@@ -24,7 +24,7 @@
 <table id="myTable" class="tablesorter">
 	<thead>
 		<tr> 
-			<th>No</th>
+			<th><center>Sr. No.</center></th>
 			<th>Date</th>
 			<th>Patient ID</th>
 			<th>Name</th>
@@ -46,7 +46,7 @@
 				</c:otherwise>
 			</c:choose>
 			<tr class="${klass}">
-				<td>${index.count}</td>
+				<td><center>${index.count}<center></td>
 				<td>
 					${test.startDate}
 				</td>

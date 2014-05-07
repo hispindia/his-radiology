@@ -135,12 +135,12 @@
 </script> 
 
 <div class="boxHeader"> 
-	<strong>See patient List by choosing lab</strong>
+	<strong>Get Patient List</strong>
 </div>
 <div class="box">
 	Date:
 	<input id="date" value="${currentDate}" style="text-align:right;"/>
-	Patient ID/Name:
+	Patient Identifier/Name:
 	<input id="phrase"/>
 	Investigation:
 	<select name="investigation" id="investigation">
