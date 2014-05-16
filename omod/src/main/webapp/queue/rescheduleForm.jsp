@@ -38,7 +38,7 @@
 			<table class="testInfo" cellspacing="15">
 				<tr>
 					<td class='info'>Patient Name</td>
-					<td>${test.patientName}</td>
+					<td>${fn:replace(test.patientName,',',' ')}</td>
 					<td></td>
 					<td class='info'>Patient Identifier</td>
 					<td>${test.patientIdentifier}</td>

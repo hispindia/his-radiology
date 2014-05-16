@@ -34,7 +34,7 @@
 			</b>
 		</td>
 		<td style="text-align:right;">Name:</td>
-		<td><b>${patient_name}</b></td>
+		<td><b>${fn:replace(patient_name,',',' ')}</b></td>
 	</tr>
 	<c:if test='${not empty test_orderDate}'>
 	<tr>								
