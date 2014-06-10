@@ -163,6 +163,17 @@ public class AjaxController {
 					.getPatientIdentifier().getIdentifier());
 			model.addAttribute("patient_age", patient.getAge());
 			model.addAttribute("patient_gender", patient.getGender());
+				
+			if(patient.getMiddleName()!=null){
+				String middleName = patient.getMiddleName().replace(',',' ');
+				String fullName =  patient.getGivenName() + " " + patient.getFamilyName() + " " + middleName;
+				model.addAttribute("patient_name",fullName);
+			}
+			else {
+				String fullName =  patient.getGivenName() + " " + patient.getFamilyName();
+				model.addAttribute("patient_name",fullName);
+			}
+					
 			model.addAttribute("patient_name", PatientUtils.getFullName(patient));
 		}
 		if (orderId != null) {
