@@ -70,7 +70,7 @@
 				<td>
 					${patient.patientIdentifier.identifier}
 				</td>
-				<td>${patient.givenName}  ${fn:replace(patient.middleName,',',' ')} ${patient.familyName}</td>
+				<td>${patient.givenName} ${patient.familyName} ${fn:replace(patient.middleName,',',' ')} </td>
 				<td>
                 	<c:choose>
                 		<c:when test="${patient.age == 0}">&lt 1</c:when>
