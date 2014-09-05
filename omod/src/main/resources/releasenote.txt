@@ -1,3 +1,6 @@
+1.4.9
+- #module upgradation
+
 1.4.8
 New Requirement #274: [RADIOLOGY] - WorkList of Patients in Alphabetical Order
 New Requirement #310: [RADIOLOGY] Generate Consolidated Work List
