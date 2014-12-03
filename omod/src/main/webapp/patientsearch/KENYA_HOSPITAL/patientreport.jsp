@@ -57,7 +57,7 @@
 	<c:when test="${not empty patients}" >		
 	<table style="width:100%">
 		<tr>			
-			<td align="center"><b>Patient Id</b></td>
+			<td align="center"><b>Patient ID</b></td>
 			<td align="center"><b>Name</b></td>
 			<td align="center"><b>Age</b></td>
 			<td align="center"><b>Gender</b></td>			
