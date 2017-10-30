@@ -28,8 +28,9 @@
 
 	jQuery(document).ready(function() {
 		jQuery('#date').datepicker({yearRange:'c-30:c+30', dateFormat: 'dd/mm/yy', changeMonth: true, changeYear: true});
+		
 		jQuery("#searchbox").showPatientSearchBox({			
-			searchBoxView: "${hospitalName}/default",
+			searchBoxView: "${hospitalName}/default", 
 			resultView: "/module/radiology/patientsearch/${hospitalName}/patientreport",		
 			target: "#patientResult",
 			beforeNewSearch: function(){
@@ -85,19 +86,23 @@
 <div class="box">
 	<table>
 		<tr>
-			<td>
+			<td valign="top">
+			
 				Date:
 				<input id="date" value="${currentDate}" onFocus="showCalendar(this);" style="text-align:right;"/>
+				
 			</td>
-			<td>
-				<div id="searchbox"></div>
+			<td >
+				<div id="searchbox" valign="top"></div>
 			</td>
-			<td>
+			<td valign="top" >
+			
 				<input type="button" value="Print" onClick="printPatientReport();"/>
+				
 			</td>
 		</tr>
 	</table>
-</div>
+
 
 <br/>
 
@@ -107,6 +112,7 @@
 </div>
 <div id='patientReportTestInfo'></div>
 <div id="tests">
+</div>
 </div>
 
 <%@ include file="/WEB-INF/template/footer.jsp" %>  
