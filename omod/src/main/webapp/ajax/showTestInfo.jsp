@@ -33,6 +33,10 @@
 			</c:choose>
 			</b>
 		</td>
+		<td> &nbsp;&nbsp;&nbsp;</td>
+		
+		<td style="text-align:right;"><c:if test="${ not empty dohId}">
+		DoH Id:<td><b>${dohId }</b></td></c:if></td>
 		<td style="text-align:right;">Name:</td>
 		<td><b>${patient_name}</b></td>
 	</tr>
