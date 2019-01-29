@@ -20,9 +20,10 @@
 
 package org.openmrs.module.radiology.extension.html;
 
-import org.openmrs.module.Extension;
 
-public class RadiologyHeader extends Extension {
+import org.openmrs.module.web.extension.LinkExt;
+
+public class RadiologyHeader extends LinkExt {
 
 	public MEDIA_TYPE getMediaType() {
 		return MEDIA_TYPE.html;
